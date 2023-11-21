@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Greetings"
+      ],
+      "responses": [
+        "Good day! How may I help you with your hotel needs?"
+      ]
+    },
+    {
+      "tag": "hotel_info",
+      "patterns": [
+        "Tell me about your hotel",
+        "What services do you offer?",
+        "Can you provide information about your rooms?"
+      ],
+      "responses": [
+        "Our hotel offers a variety of comfortable rooms and excellent services.",
+        "We have a range of room types and amenities for your stay. How can I assist further?",
+        "Sure, we have different room options and amenities available. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "room_reservation",
+      "patterns": [
+        "How do I book a room?",
+        "I want to reserve a room",
+        "Can you help me with a room reservation?"
+      ],
+      "responses": [
+        "Booking a room is easy. You can reserve a room on our website or give us a call.",
+        "Certainly! You can book a room by visiting our website or contacting our reservations team.",
+        "We'd be happy to assist with your room reservation. You can book online or call our reservations department."
+      ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "What amenities do you have?",
+        "Tell me about your facilities",
+        "Do you have a restaurant on-site?"
+      ],
+      "responses": [
+        "We offer various amenities, including a restaurant, pool, and fitness center.",
+        "Our hotel features a range of amenities, such as a restaurant, swimming pool, and fitness facilities.",
+        "Yes, we have a restaurant on-site, as well as other facilities to make your stay enjoyable."
+      ]
+    },
+    {
+      "tag": "checkout_info",
+      "patterns": [
+        "What time is check-out?",
+        "Can I have a late check-out?",
+        "Tell me about the check-out process."
+      ],
+      "responses": [
+        "Our standard check-out time is 11:00 AM. Late check-out may be available upon request.",
+        "The regular check-out time is 11:00 AM, but we can accommodate late check-outs upon request. Please let us know your preferences.",
+        "Check-out time is typically at 11:00 AM, but if you need a late check-out, feel free to ask, and we'll do our best to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Farewell"],
+      "responses": [
+        "Goodbye! We look forward to serving you in the future.",
+        "See you later! Have a wonderful day.",
+        "Farewell! If you have more questions, don't hesitate to return."
+      ]
+    }
+  ]
+}
