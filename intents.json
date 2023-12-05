@@ -10,68 +10,105 @@
         "Greetings"
       ],
       "responses": [
-        "Good day! How may I help you with your hotel needs?"
+        "Hello! My name is Kaveri!,\n How can I assist you in finding your perfect match?"
       ]
     },
     {
-      "tag": "hotel_info",
+      "tag": "membership_info",
       "patterns": [
-        "Tell me about your hotel",
-        "What services do you offer?",
-        "Can you provide information about your rooms?"
+        "Tell me about membership plans",
+        "What are your membership options?",
+        "Can you provide information about subscriptions?"
       ],
       "responses": [
-        "Our hotel offers a variety of comfortable rooms and excellent services.",
-        "We have a range of room types and amenities for your stay. How can I assist further?",
-        "Sure, we have different room options and amenities available. How can I assist you today?"
+        "We offer various membership plans suited to your needs and preferences.",
+        "Our memberships cater to different preferences and offer various benefits. How can I help you choose?"
       ]
     },
     {
-      "tag": "room_reservation",
+      "tag": "profile_creation",
       "patterns": [
-        "How do I book a room?",
-        "I want to reserve a room",
-        "Can you help me with a room reservation?"
+        "How do I create a profile?",
+        "I want to register",
+        "Can you help me with profile setup?"
       ],
       "responses": [
-        "Booking a room is easy. You can reserve a room on our website or give us a call.",
-        "Certainly! You can book a room by visiting our website or contacting our reservations team.",
-        "We'd be happy to assist with your room reservation. You can book online or call our reservations department."
+        "Creating a profile is simple. You can sign up on our website or app.",
+        "Sure! You can register and create your profile easily on our platform."
       ]
     },
     {
-      "tag": "amenities",
+      "tag": "matching_assistance",
       "patterns": [
-        "What amenities do you have?",
-        "Tell me about your facilities",
-        "Do you have a restaurant on-site?"
+        "Can you help me find a match?",
+        "I need assistance in finding a partner",
+        "How does the matching process work?"
       ],
       "responses": [
-        "We offer various amenities, including a restaurant, pool, and fitness center.",
-        "Our hotel features a range of amenities, such as a restaurant, swimming pool, and fitness facilities.",
-        "Yes, we have a restaurant on-site, as well as other facilities to make your stay enjoyable."
+        "Our platform provides personalized matchmaking services based on your preferences.",
+        "We assist in finding compatible matches based on your criteria. How can I assist you further?"
       ]
     },
     {
-      "tag": "checkout_info",
+      "tag": "privacy_security",
       "patterns": [
-        "What time is check-out?",
-        "Can I have a late check-out?",
-        "Tell me about the check-out process."
+        "Is my information secure?",
+        "Tell me about privacy measures",
+        "How is my data protected?"
       ],
       "responses": [
-        "Our standard check-out time is 11:00 AM. Late check-out may be available upon request.",
-        "The regular check-out time is 11:00 AM, but we can accommodate late check-outs upon request. Please let us know your preferences.",
-        "Check-out time is typically at 11:00 AM, but if you need a late check-out, feel free to ask, and we'll do our best to assist you."
+        "We prioritize the security and privacy of your information. Your data is protected on our platform.",
+        "Your privacy is important to us. We have robust measures in place to ensure the safety of your data."
+      ]
+    },
+    {
+      "tag": "subscription_billing",
+      "patterns": [
+        "How does billing work?",
+        "Tell me about subscriptions payment",
+        "Can I change my subscription plan?"
+      ],
+      "responses": [
+        "Billing is managed through secure payment gateways. You can easily manage your subscription from your account.",
+        "Subscription payments are secure and manageable from your account settings. You have flexibility in managing your plan."
+      ]
+    },
+    {
+      "tag": "request user",
+      "patterns": [
+        "Can you request Admin to get in touch with me",
+        "Can you connect me with admin",
+        "I need Admin's assistance"
+      ],
+      "responses": [
+        "I do not understood what you said. \n Please select an option \n 1.You want me to connect you with admin ? \n 2.You dont want to connect"
+      ]
+    },
+    {
+      "tag": "answer user",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "I have requested the admin. he will get back to you as soon as possible"
+      ]
+    },
+    {
+      "tag": "answer user2",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "I there anything else I can you you with"
       ]
     },
     {
       "tag": "goodbye",
       "patterns": ["Goodbye", "See you later", "Farewell"],
       "responses": [
-        "Goodbye! We look forward to serving you in the future.",
-        "See you later! Have a wonderful day.",
-        "Farewell! If you have more questions, don't hesitate to return."
+        "Goodbye! Best wishes in your search for a life partner.",
+        "See you later! If you have more questions, feel free to return.",
+        "Farewell! We hope to assist you in finding your perfect match soon."
       ]
     }
   ]

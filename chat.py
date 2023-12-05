@@ -48,7 +48,7 @@ def get_response(msg):
                 resp = get_response(sentence)
                 print("------>", resp)
     
-    return "I do not understand..."
+    return "I did not get what you are saying. I will email admin and he will get back to you soon for this query"
 
 
 if __name__ == "__main__":
